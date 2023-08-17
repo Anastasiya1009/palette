@@ -1,0 +1,52 @@
+body {
+    background-color: beige;
+}
+
+#colorDiv {
+    text-align: center;
+}
+
+#colorDiv div {
+    display: inline-block;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 300px;
+
+}
+
+input,
+select {
+    width: 300px;
+    margin-bottom: 10px;
+    list-style: none;
+
+}
+
+.div1 {
+    width: 380px;
+    height: 250px;
+    position: relative;
+    margin: 15px;
+}
+
+.div2 {
+    position: absolute;
+    left: 65px;
+    top: 62px;
+    text-align: center;
+    width: 250px;
+    height: 125px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.info {
+    text-transform: uppercase;
+}

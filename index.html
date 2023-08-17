@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" onsubmit="return fun(event)" method="post">
+        <h2><b>Create new color</b></h2> <br><br>
+
+        <span id="txt1">Color:</span>
+        <br> <input type="text" name="color" id="color" required> <br>
+
+        <span>Type:</span>
+        <br> <select id="txt2" name="type">
+            <option id="rgb" value="0">RGB</option>
+            <option id="rgba" value="1">RGBA</option>
+            <option id="hex" value="2">HEX</option>
+        </select> <br>
+
+        <span id="txt3">Code:</span>
+        <br> <input type="text" name="code" id="code" required> <br>
+
+        <input type="submit" value="Save">
+
+    </form>
+    <p style="text-align: center;"><b> All colors</b></p>
+    <div id="colorDiv">
+        <div class="div1" style="background-color: yellowgreen;">
+            <div class="div2">
+                <p>YELLOWGREEN</p>
+                <p>RGB</p>
+                <p>154, 205, 50</p>
+            </div>
+        </div>
+        <div class="div1" style="background-color: darkcyan;">
+            <div class="div2">
+                <p>DARKCYAN</p>
+                <p>RGBA</p>
+                <p>0, 139, 139, 1</p>
+            </div>
+        </div>
+        <div class="div1" style="background-color: orangered;">
+            <div class="div2">
+                <p>ORANGERED</p>
+                <p>HEX</p>
+                <p>#FF4500</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
